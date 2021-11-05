@@ -1,1 +1,13 @@
 /* Write your CSS code in this file */
+body {
+    font-family: courier;
+    text-align: center;
+}
+
+.pink {
+  color:hotpink
+}
+
+#hints {
+  font-style: italic;
+}

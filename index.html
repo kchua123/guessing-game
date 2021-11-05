@@ -9,13 +9,29 @@
   </head>
 
   <body>
+    <div class="allcontents">
+      <img src="https://us.123rf.com/450wm/totostark/totostark1806/totostark180600001/104201094-cute-corgi-butt-vector-illustration.jpg?ver=6" width=300>
+      <h1>My Guessing Game</h1>
+      Guess a number 1 - 100.
+      <h3>My previous guesses:</h3>
+        <span id="guess1">--</span>
+        <span id="guess2">--</span>
+        <span id="guess3">--</span>
+        <span id="guess4">--</span>
+        <span id="guess5">--</span>
 
+    <p>Number of guesses remaining: <span id="guesses-left"> </span></p>
+    <p><span id="hotcold" class="pink"></span> <span id="higher-lower" class="pink"></span></p>
+      <input id="input" placeholder="Enter guess here" maxlength=3>
+      <input id="submit" type="button" value="Submit">
+      <input id="hint" type="button" value="Hint">
+      <input id="playagain" type="button" value="Play again">
 
+      <p id="hints"> </p>
 
-
-
-    <!-- <script src='js/guessing-game.js'></script> -->
+    <script src='js/guessing-game.js'></script>
     <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
+  </div>
   </body>
 
 </html>
